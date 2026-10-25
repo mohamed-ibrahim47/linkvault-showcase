@@ -74,7 +74,7 @@ No account, no login, no analytics, no ads. The app goes online only to read lin
 - **SQLite** on the device, plus a JSON export that can be imported back.
 - The AI model runs through **ONNX Runtime** in native Android code on a background thread. Tokenizing, the keyword scorer and the classifier are pure Dart, so they're unit-tested and run in background isolates.
 - A foreground notification keeps long imports and preview reads alive when you leave the app.
-- 79 automated tests cover the parsers, URL cleaning, the tokenizer, the sorters, restore, and the main screens in both languages.
+- 99 automated tests cover the parsers, URL cleaning, the tokenizer, the sorters, restore, and every main screen in both languages on phone, Fold and tablet sizes and with large text.
 
 ## Coming next
 
