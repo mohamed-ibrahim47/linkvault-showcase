@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LinkVault</title>
-<meta name="description" content="All the links people send you, sorted by topic, on your phone. Share from any app or import WhatsApp chats and bookmarks. No account, no server, English and Arabic.">
+<meta name="description" content="All the links people send you, sorted by topic, on your phone. Share from any app, paste a list, or import WhatsApp, Facebook, Instagram, YouTube, LinkedIn and bookmarks. No account, no server, English and Arabic.">
 <meta property="og:title" content="LinkVault">
 <meta property="og:description" content="All the links people send you, sorted by topic, on your phone.">
 <meta property="og:image" content="images/library-en.png">
@@ -165,6 +165,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
       <a href="#features">Features</a>
       <a href="#sorting">How it sorts</a>
       <a href="#screens">Screens</a>
+      <a href="#download">Download</a>
       <a class="keep" href="privacy.html">Privacy</a>
     </div>
   </div>
@@ -173,12 +174,12 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
 <main class="wrap" id="top">
   <div class="hero">
     <div class="reveal">
-      <span class="badge"><b></b>Android · English &amp; العربية · Version 1.0</span>
+      <span class="badge"><b></b>Android · English &amp; العربية · Version 1.4.1</span>
       <h1>All the links people send you, <em>sorted by topic</em>.</h1>
       <p class="lead">That lecture from a group chat, the article a friend sent last month, the course you bookmarked: LinkVault collects them in one place and sorts them by what they're about. On your phone, with no account and no server.</p>
       <div class="cta">
-        <a class="btn main" href="#screens">See it in action →</a>
-        <a class="btn ghost" href="#sorting">How it sorts</a>
+        <a class="btn main" href="https://github.com/mohamed-ibrahim47/linkvault-showcase/releases/latest/download/LinkVault.apk">Download for Android</a>
+        <a class="btn ghost" href="#screens">See it in action →</a>
       </div>
     </div>
     <div class="phones" aria-hidden="true">
@@ -192,7 +193,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
   <div class="stats reveal">
     <div class="stat"><b>0</b><span>accounts, passwords or servers</span></div>
     <div class="stat"><b>3</b><span>ways to sort, from keywords to on-device AI</span></div>
-    <div class="stat"><b>99</b><span>automated tests, from parsing to phone and tablet sizes</span></div>
+    <div class="stat"><b>132</b><span>automated tests, from parsing to phone and tablet sizes</span></div>
     <div class="stat"><b>2</b><span>languages, English and Arabic</span></div>
   </div>
 
@@ -204,7 +205,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
         <p class="sub">Your links grouped into categories you can rename, recolour and add to. Each one opens straight in its own app.</p>
         <ul class="ticks">
           <li><span><b>Share from any app.</b> Tap Share, pick LinkVault, and it's saved and sorted before you're back in the chat.</span></li>
-          <li><span><b>Paste a link</b> with the + button. If one is on your clipboard, it's already filled in.</span></li>
+          <li><span><b>Paste a link, or a whole list</b> with the + button. A OneTab export or a note full of links comes in at once, titles kept.</span></li>
           <li><span><b>New, Done, Archived:</b> keep track of what you've watched or read.</span></li>
           <li><span><b>Search</b> titles, notes, tags, or who sent it and in which chat.</span></li>
         </ul>
@@ -233,15 +234,32 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
         <p class="sub">From files you export yourself. LinkVault reads them on the phone and never logs in anywhere.</p>
         <ul class="ticks">
           <li><span><b>WhatsApp chats:</b> Export chat → Without media, then share it to LinkVault. Android, iPhone and Arabic-format exports all work.</span></li>
+          <li><span><b>Facebook, Messenger and Instagram:</b> saved posts and links from chats, from Meta's own "Export your information" download.</span></li>
+          <li><span><b>YouTube</b> Watch later, Liked videos and your playlists from Google Takeout, and <b>LinkedIn</b> links from messages, saved jobs and your posts.</span></li>
           <li><span><b>Browser bookmarks</b> from Chrome, Edge, Firefox or Safari. Folder names become sorting hints.</span></li>
+          <li><span><b>Filter by source:</b> see only what came from WhatsApp, Bookmarks, YouTube and so on, on every screen.</span></li>
           <li><span><b>No duplicates.</b> Import the same chat again and only new links come in. The same link from two people is one link with two senders.</span></li>
           <li><span><b>Moving phones?</b> Export your library, then import that file on the new phone.</span></li>
         </ul>
       </div>
-      <div class="shots"><div class="phone"><img src="images/import-en.png" alt="Import: WhatsApp, bookmarks and backups" loading="lazy"></div></div>
+      <div class="shots"><div class="phone"><img src="images/import-en.png" alt="Import: WhatsApp, Facebook, Instagram, YouTube, LinkedIn, bookmarks and lists" loading="lazy"></div></div>
     </div>
 
-    <div class="feature flip reveal" style="--c: rgba(255,181,71,.2)">
+    <div class="feature flip reveal" style="--c: rgba(91,180,255,.2)">
+      <div>
+        <div class="kicker">Revisit</div>
+        <h2>Not now? It reminds you</h2>
+        <p class="sub">Mark a link to come back to in a few hours, tomorrow or next week. When the time comes, your phone tells you.</p>
+        <ul class="ticks">
+          <li><span><b>A Revisit tab</b> with what's due now and what's coming up.</span></li>
+          <li><span><b>A notification</b> at the time you picked. Tap it and the link is open.</span></li>
+          <li><span><b>Watched it</b> marks it done, or push it back with <b>Remind me again</b>.</span></li>
+        </ul>
+      </div>
+      <div class="shots"><div class="phone"><img src="images/revisit-en.png" alt="Revisit: links coming back" loading="lazy"></div></div>
+    </div>
+
+    <div class="feature reveal" style="--c: rgba(255,181,71,.2)">
       <div>
         <div class="kicker">Sorting modes</div>
         <h2>You choose how smart it gets</h2>
@@ -295,6 +313,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
       <figure><div class="phone"><img src="images/category-en.png" alt="A category" loading="lazy"></div><figcaption>A category</figcaption></figure>
       <figure><div class="phone"><img src="images/link-en.png" alt="A link" loading="lazy"></div><figcaption>A link</figcaption></figure>
       <figure><div class="phone"><img src="images/unsorted-en.png" alt="Unsorted" loading="lazy"></div><figcaption>Unsorted</figcaption></figure>
+      <figure><div class="phone"><img src="images/revisit-en.png" alt="Revisit" loading="lazy"></div><figcaption>Revisit</figcaption></figure>
       <figure><div class="phone"><img src="images/import-en.png" alt="Import" loading="lazy"></div><figcaption>Import</figcaption></figure>
       <figure><div class="phone"><img src="images/modes-en.png" alt="Sorting modes" loading="lazy"></div><figcaption>Sorting modes</figcaption></figure>
       <figure><div class="phone"><img src="images/settings-en.png" alt="Settings" loading="lazy"></div><figcaption>Settings</figcaption></figure>
@@ -331,10 +350,24 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space
     <div class="kicker">What's next</div>
     <h2>Coming later</h2>
     <div class="soon">
-      <div class="card"><h3>More imports</h3><p>Facebook and Messenger, Instagram saved posts, YouTube playlists and LinkedIn, from their own data downloads.</p></div>
       <div class="card"><h3>Phone AI</h3><p>On phones with a built-in model, one-line summaries and a second opinion when sorting is unsure.</p></div>
       <div class="card"><h3>Automatic backup</h3><p>To your own Google Drive, never to a LinkVault server.</p></div>
     </div>
+  </section>
+
+  <section id="download" class="reveal">
+    <div class="kicker">Download</div>
+    <h2>Get it on your Android phone</h2>
+    <p class="sub">Free, no ads, no account. Android 7 or newer. The file comes straight from this page's GitHub, signed by me, and every update keeps your links.</p>
+    <div class="cta" style="margin-top: 22px">
+      <a class="btn main" href="https://github.com/mohamed-ibrahim47/linkvault-showcase/releases/latest/download/LinkVault.apk">Download LinkVault.apk</a>
+      <a class="btn ghost" href="https://github.com/mohamed-ibrahim47/linkvault-showcase/releases">All versions and what's new</a>
+    </div>
+    <ul class="ticks">
+      <li><span><b>Open the downloaded file.</b> Android asks once to allow installs from your browser or Files app: tap Settings, turn on <b>Allow from this source</b>, and go back.</span></li>
+      <li><span><b>Tap Install.</b> If Play Protect says it doesn't know the app, tap <b>More details → Install anyway</b>. It's new and not on the Play Store, that's all.</span></li>
+      <li><span><b>Updating?</b> Download the new file and install it over the old one. Your library stays.</span></li>
+    </ul>
   </section>
 </main>
 
